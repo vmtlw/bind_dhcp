@@ -1,0 +1,14 @@
+$TTL 1W
+@       IN      SOA     vmtlw.ru. root.vmtlw.ru.  (
+                                      2008122609 ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+;dns server
+	IN      NS      ns1.vmtlw.ru.
+235	IN	PTR	ns1.vmtlw.ru.
+;hosts:
+217	IN      PTR     desktop.vmtlw.ru.
+
+
