@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ZONES_PATH="/etc/bind/master"
+NEEDLE="Serial"
+
+for ZONE in $(ls -1 $ZONES_PATH) ; do
+    curr=$(grep -e "${NEEDLE}$" $ZONES_PATH/${ZONE} | sed -n "s/^\s*\([0-9]*\)\s*;\s*${NEEDLE}\s*/\1/p")
+    num=$(($curr + 1))
+    serial="${cur}$(printf '%01d' $num )"
+    sed -i -e "s/^\(\s*\)[0-9]\{0,\}\(\s*;\s*${NEEDLE}\)$/\1${serial}\2/" ${ZONES_PATH}/${ZONE}
+    CHECHING=$(grep "; ${NEEDLE}$" $ZONES_PATH/${ZONE})
+    echo "${ZONE}: $CHECHING"
+done
