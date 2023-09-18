@@ -13,6 +13,17 @@ zone "127.in-addr.arpa" {
 	file "/etc/bind/localhost.rev.zone";
 };
 
+zone "vmtlw.ru" {
+        type master;
+        file "/etc/bind/vmtlw.ru.zone";
+        allow-update { key rndc-key; };
+};
+
+zone "10.2.2.in-addr.arpa" {
+        type master;
+        file "/etc/bind/vmtlw.ru.rev.zone";
+        allow-update { key rndc-key; };
+};
 
 // include "/etc/bind/rfc1918.zone";
 

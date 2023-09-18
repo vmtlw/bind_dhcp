@@ -13,7 +13,6 @@ services:
       - ./lib:/var/lib/bind
       - ./log:/var/log/bind
     image: 'internetsystemsconsortium/bind9:9.18'
-#    build: .
 
 
   dhcpd:
@@ -22,13 +21,18 @@ services:
     container_name: dhcpd
     networks:
       dhcp:
-#        ipv4_address: "172.23.0.2"
+        ipv4_address: "172.23.0.2"
     volumes:
-      - ./dhcpd.conf:/etc/dhcp/dhcpd.conf:ro
+      - ./dhcp/dhcpd.conf:/etc/dhcp/dhcpd.conf:ro
+      - ./dhcp/dhcpd.leases:/var/lib/dhcp/dhcpd.leases
+#	dnssec-keygen -a HMAC-MD5 -b 128 -n
+      - ./config/rndc.key:/etc/dhcp/rndc.key:ro
+    depends_on:
+      - bind9
 
 networks:
   dhcp:
- #   ipam:
- #     config:
- #       - subnet: "172.23.0.0/16"
+    ipam:
+      config:
+        - subnet: "172.23.0.0/16"
 
