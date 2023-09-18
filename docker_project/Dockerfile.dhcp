@@ -1,0 +1,11 @@
+FROM alpine
+RUN set -xe \
+	&& apk add --no-cache --virtual --update --no-progress dhcp
+
+USER dhcp
+
+RUN touch /var/lib/dhcp/dhcpd.leases
+
+USER root
+
+CMD /usr/sbin/dhcpd -4 -f -d --no-pid -cf /etc/dhcp/dhcpd.conf

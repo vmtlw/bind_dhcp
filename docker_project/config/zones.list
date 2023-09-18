@@ -1,0 +1,18 @@
+zone "." {
+	type hint;
+	file "/usr/share/dns/root.hints";
+};
+
+zone "localhost" {
+	type master;
+	file "/etc/bind/localhost.zone";
+};
+
+zone "127.in-addr.arpa" {
+	type master;
+	file "/etc/bind/localhost.rev.zone";
+};
+
+
+// include "/etc/bind/rfc1918.zone";
+

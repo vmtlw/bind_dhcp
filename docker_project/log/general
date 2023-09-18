@@ -1,0 +1,146 @@
+18-Sep-2023 17:51:32.870 received control channel command 'reconfig'
+18-Sep-2023 17:51:32.870 loading configuration from '/etc/bind/named.conf'
+18-Sep-2023 17:51:32.870 /etc/bind/options.conf:8: missing ';' before 'options'
+18-Sep-2023 17:51:32.870 /etc/bind/options.conf:18: unknown option '8.8.8.8'
+18-Sep-2023 17:51:32.870 reloading configuration failed: failure
+18-Sep-2023 17:53:17.506 received control channel command 'reconfig'
+18-Sep-2023 17:53:17.506 loading configuration from '/etc/bind/named.conf'
+18-Sep-2023 17:53:17.506 /etc/bind/options.conf:8: missing ';' before 'options'
+18-Sep-2023 17:53:17.506 reloading configuration failed: file not found
+18-Sep-2023 17:53:33.116 received control channel command 'reconfig'
+18-Sep-2023 17:53:33.116 loading configuration from '/etc/bind/named.conf'
+18-Sep-2023 17:53:33.116 /etc/bind/options.conf:8: missing ';' before 'options'
+18-Sep-2023 17:53:33.116 reloading configuration failed: file not found
+18-Sep-2023 17:53:54.923 received control channel command 'reconfig'
+18-Sep-2023 17:53:54.923 loading configuration from '/etc/bind/named.conf'
+18-Sep-2023 17:53:54.926 /etc/bind/options.conf:8: missing ';' before 'options'
+18-Sep-2023 17:53:54.926 reloading configuration failed: failure
+18-Sep-2023 17:56:41.416 received control channel command 'reconfig'
+18-Sep-2023 17:56:41.416 loading configuration from '/etc/bind/named.conf'
+18-Sep-2023 17:56:41.416 reading built-in trust anchors from file '/etc/bind/bind.keys'
+18-Sep-2023 17:56:41.416 looking for GeoIP2 databases in '/usr/share/GeoIP'
+18-Sep-2023 17:56:41.416 using default UDP/IPv4 port range: [32768, 60999]
+18-Sep-2023 17:56:41.416 using default UDP/IPv6 port range: [32768, 60999]
+18-Sep-2023 17:56:41.416 no longer listening on 127.0.0.1#53
+18-Sep-2023 17:56:41.416 no longer listening on 192.168.128.2#53
+18-Sep-2023 17:56:41.416 sizing zone task pool based on 21 zones
+18-Sep-2023 17:56:41.416 none:100: 'max-cache-size 90%' - setting to 57802MB (out of 64224MB)
+18-Sep-2023 17:56:41.420 automatic empty zone: 64.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 65.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 66.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 67.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 68.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 69.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 70.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 71.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 72.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 73.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 74.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 75.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 76.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 77.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 78.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 79.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 80.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 81.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 82.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 83.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 84.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 85.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 86.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 87.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 88.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 89.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 90.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 91.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 92.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 93.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 94.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 95.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 96.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 97.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 98.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 99.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 100.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 101.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 102.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 103.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 104.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 105.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 106.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 107.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 108.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 109.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 110.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 111.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 112.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 113.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 114.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 115.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 116.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 117.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 118.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 119.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 120.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 121.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 122.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 123.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 124.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 125.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 126.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 127.100.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 0.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 254.169.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: D.F.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 8.E.F.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 9.E.F.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: A.E.F.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: B.E.F.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: EMPTY.AS112.ARPA
+18-Sep-2023 17:56:41.420 automatic empty zone: HOME.ARPA
+18-Sep-2023 17:56:41.420 configuring command channel from '/etc/bind/rndc.key'
+18-Sep-2023 17:56:41.420 configuring command channel from '/etc/bind/rndc.key'
+18-Sep-2023 17:56:41.420 reloading configuration succeeded
+18-Sep-2023 17:56:41.423 scheduled loading new zones
+18-Sep-2023 17:56:41.426 any newly configured zones are now loaded
+18-Sep-2023 17:56:41.426 running
+18-Sep-2023 18:05:04.356 shutting down
+18-Sep-2023 18:05:04.356 stopping command channel on 127.0.0.1#953
+18-Sep-2023 18:05:04.356 stopping command channel on ::1#953
+18-Sep-2023 18:05:04.356 automatic interface scanning terminated: end of file
+18-Sep-2023 18:05:04.370 exiting
+18-Sep-2023 18:10:28.510 managed-keys-zone: loaded serial 11
+18-Sep-2023 18:10:28.510 zone 10.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.510 zone 26.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.510 zone 27.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.513 zone 23.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.513 zone 29.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.513 zone 17.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.513 zone 18.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.513 zone localhost/IN: loaded serial 2
+18-Sep-2023 18:10:28.513 zone 21.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 24.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 19.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 30.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 22.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 31.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 28.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 20.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 127.in-addr.arpa/IN: loaded serial 2
+18-Sep-2023 18:10:28.516 zone 16.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 25.172.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 zone 168.192.in-addr.arpa/IN: loaded serial 1
+18-Sep-2023 18:10:28.516 all zones loaded
+18-Sep-2023 18:10:28.516 running
+18-Sep-2023 18:12:35.843 shutting down
+18-Sep-2023 18:12:35.843 stopping command channel on 127.0.0.1#953
+18-Sep-2023 18:12:35.843 stopping command channel on ::1#953
+18-Sep-2023 18:12:35.843 automatic interface scanning terminated: end of file
+18-Sep-2023 18:12:35.853 exiting
